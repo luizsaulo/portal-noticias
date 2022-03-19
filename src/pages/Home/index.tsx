@@ -32,22 +32,17 @@ useEffect(() => {
     <div>
       <Header />
       <Wrapper>
-        {articles.map(article => {
+        {articles.map((article, index) => {
             return ( <Card 
               titulo={article.title} 
               resumo={article.description} 
               link={article.url} 
               image={article.urlToImage}
+              key={index}
               />
               );
           })
-        }
-      <Card
-          titulo="Teste"
-          resumo="sfhjgbsyu usgbfuysgbfyu fusgbfuy"
-          link="teste"
-          image="https://rollingstone.uol.com.br/media/_versions/michael-scott-reprod-comedy-central_widelg.jpg"
-        />
+        }      
       </Wrapper>      
     </div>
     

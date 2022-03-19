@@ -8,7 +8,6 @@ export const Container = styled.div`
   background: #fff;
   gap: 10px;
   width: 45%;
-
   img {
     object-fit: cover;
     height: 290px;

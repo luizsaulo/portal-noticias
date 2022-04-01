@@ -1,4 +1,4 @@
-# Movie Gallery
+# Typescript News Portal
 Creation of a system to organize a movie list
 ## 🚀 Starting
 
